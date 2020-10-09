@@ -8,17 +8,31 @@ html {
   padding: 0;
 }
 
+header {
+  z-index: 3;
+}
+
 header a {
   font-size: 22px;
   color: #ffffff !important;
   letter-spacing: 2px;
 }
 
-.home-section {
-  padding-top: 300px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  
+.home-section{
+  padding-top: 300px; 
 }
+
+/* dob register page */
+
+.dob-register-section {
+  padding-top: 200px;
+}
+
+form {
+  /* width: 40em; */
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  border: solid 2px #6c757d;
+}
+
 
