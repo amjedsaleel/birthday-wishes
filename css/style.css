@@ -8,8 +8,8 @@ html {
   padding: 0;
 }
 
-header {
-  z-index: 3;
+header #nav-bar {
+  z-index: 1;
 }
 
 header a {
@@ -23,16 +23,50 @@ header a {
 }
 
 /* dob register page */
-
 .dob-register-section {
   padding-top: 200px;
 }
 
-form {
-  /* width: 40em; */
+.dob-register-section form {
   border-radius: 8px;
   background-color: #f8f9fa;
   border: solid 2px #6c757d;
 }
 
+/* wish page */
+.wish-page {
+  padding-top: 100px;
+}
+
+.wish-page #wishes-row {
+  padding-top: 50px;
+}
+
+.wish-page .birthday-guy {
+  color: #363131;
+}
+
+.wish-page .wishes-button {
+  border-radius: 15px;
+  border: solid 2px #6c757d;
+  font-size: 22px;
+}
+
+.wish-page label {
+  font-size: 22px;
+  font-weight: bold;
+  color: #363131;
+}
+
+.wish-page #custom-wish {
+  color: #ffffff;
+  border-radius: 15px;
+  border: solid 2px #6c757d;
+
+}
+
+.wish-page #submit-btn {
+  font-size: 22px;
+  border-radius: 15px;
+}
 
