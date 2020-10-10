@@ -82,3 +82,21 @@ header a {
   border: solid 2px #6c757d;
   font-size: 22px;
 }
+
+/* wishes bank page */
+.wishes-bank .name {
+  font-size: 34px;
+  font-weight: bold;
+  color: #6c757d;
+}
+
+.wishes-bank .message-box {
+  background-color: #6c757d;
+  border-radius: 10px;
+  box-shadow:hsl(0, 0%, 80%) 0 0 8px;  
+}
+
+.wishes-bank .message-box p {
+  font-size: 34px;
+  color: #ffffff;
+}
